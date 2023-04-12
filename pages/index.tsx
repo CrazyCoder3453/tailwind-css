@@ -1,8 +1,13 @@
 
 export default function Home() {
   return (
-    <h1 className='text-3xl font-bold underline'>
-      Hello World!
-    </h1>
+    <div className="bg-white">
+      <h1 className='border-4 border-green-600 text-3xl'>
+        Hello World!
+      </h1>
+      <h2 className="text-vuejs">
+        Hello World!
+      </h2>
+    </div>
   )
 }
